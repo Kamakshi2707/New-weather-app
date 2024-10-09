@@ -1,0 +1,62 @@
+/* WeatherApp.css */
+
+.weather-app {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #6c648B, #b881be);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.weather-app h1 {
+    color: #FFF;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.weather-app .search-box input {
+    padding: 10px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    outline: none;
+}
+
+.weather-app .search-box button {
+    padding: 10px 15px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #FBA100;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.weather-app .search-box button:hover {
+    background-color: #ff6347;
+}
+
+.weather-app .info-box {
+    border: 1px solid #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.info-box h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.info-box p {
+    margin: 5px 0;
+    font-size: 1.2em;
+}

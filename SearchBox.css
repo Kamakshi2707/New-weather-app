@@ -1,0 +1,42 @@
+.SearchBox{
+    text-align: center;
+    margin: 25px;
+}
+/* SearchBox.css */
+
+.SearchBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.SearchBox form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchBox .MuiTextField-root {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.SearchBox .MuiButton-root {
+    background-color: #ff7f50;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.SearchBox .MuiButton-root:hover {
+    background-color: #ff6347;
+}
+
+.SearchBox p {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
